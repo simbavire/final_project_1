@@ -11,7 +11,7 @@ namespace sql_workwith
         {
             // Load the connector class and create a connection to the database.
 
-            string connString = "server=localhost;port=3306;database=Webshop;user=newuser;password=pard!";
+            string connString = "server=localhost;port=3306;database=Webshop;user=newuser;password=pa55word";
             MySqlConnection conn = new MySqlConnection(connString);
 
             try
